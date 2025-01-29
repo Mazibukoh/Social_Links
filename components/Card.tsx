@@ -22,7 +22,7 @@ const Card = () => {
       />
       <h1 className='text-[2.24rem] mb-[0.5rem]'>Jessica Randal</h1>
       <h2 className='neon font-bold mb-[1.5rem] '>London, United Kingdom</h2>
-      <p className='mb-[1.5rem]'>"Front-end developer and avid reader."</p>
+      <p className='mb-[1.5rem]'>“Front-end developer and avid reader.”</p>
 
       {links.map((link) => (
           <LinkList linkData={link} key={link.url} />
